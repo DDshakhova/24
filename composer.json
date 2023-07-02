@@ -1,0 +1,20 @@
+{
+    "name": "m24/mvc",
+    "description": "the hardest project",
+    "type": "project",
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "DDShakhova"
+        }
+    ],
+    "minimum-stability": "dev"
+}

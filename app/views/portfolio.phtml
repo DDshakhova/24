@@ -1,0 +1,14 @@
+<div class="main_wrap_portfolio">
+ <p class="cakes">А вот и наши тортики...</p>
+    <table>
+        <tr><th>Картинка</th><th>Название</th><th>Вес</th><th>Описание</th></tr>
+
+ <?php
+        foreach($data as $row)
+        {
+            echo '<tr><td>'.$row['Pic'].'</td><td>'.$row['Name'].'</td><td>'.$row['Weight'].'</td><td>'.$row['Description'].'</td></tr>';
+        }
+
+ ?>       
+    </table>
+</div>
